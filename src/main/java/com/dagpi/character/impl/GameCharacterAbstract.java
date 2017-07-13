@@ -3,7 +3,7 @@ package com.dagpi.character.impl;
 /**
  * Created by piwaye on 13/07/17.
  */
-public abstract class CharacterAbstract {
+public abstract class GameCharacterAbstract {
     public int hitPoits;
 
     public int getHitPoits(){

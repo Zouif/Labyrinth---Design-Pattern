@@ -6,7 +6,7 @@ import com.dagpi.item.Item;
 /**
  * Created by benjamin on 7/13/17.
  */
-public class MonsterImpl extends CharacterAbstract implements Monster {
+public class MonsterImpl extends GameCharacterAbstract implements Monster {
 
     @Override
     public boolean addToBag(Item i) {

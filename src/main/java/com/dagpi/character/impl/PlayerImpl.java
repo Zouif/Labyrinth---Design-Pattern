@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * Created by benjamin on 7/13/17.
  */
-public class PlayerImpl extends CharacterAbstract implements Player {
+public class PlayerImpl extends GameCharacterAbstract implements Player {
     private ArrayList<Item> inventory;
 
     public PlayerImpl(){
