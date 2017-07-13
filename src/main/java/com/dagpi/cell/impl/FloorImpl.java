@@ -8,4 +8,11 @@ import com.dagpi.cell.Floor;
  */
 public class FloorImpl implements Floor {
     private Item item;
+
+    public void interact(Character character) {
+        if(item != null) {
+            character.addToBag(item);
+            item = null;
+        }
+    }
 }
